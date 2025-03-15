@@ -47,7 +47,7 @@ const AddStudentForm = () => {
   return (
     <div className="container mt-5">
       <div className="card shadow p-4">
-        <h2 className="text-center mb-4">Add Student</h2>
+        <h2 className="text-center mb-4">Add Student to Record</h2>
         {error && <div className="alert alert-danger">{error}</div>}
         <form onSubmit={handleSubmit}>
           <div className="mb-3">
